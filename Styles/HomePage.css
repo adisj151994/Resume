@@ -1,0 +1,47 @@
+body{
+	margin: 0px;
+}
+p{
+	margin: 0px;
+}
+.pfirst{
+	font-family: 'Lato', sans-serif;
+	color:white;
+	font-size: 60px;
+	font-weight: 100;
+	line-height: 1;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+.psecond{
+	font-family: 'Lato', sans-serif;
+	color:white;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 1;
+-webkit-font-smoothing: subpixel-antialiased;
+}
+.first{
+	background-color: #2a9cff;
+	height: 100vh;
+	position: relative;
+	z-index: -1;
+}
+.firstfirst{
+	top: 50%;
+	left: 10%;
+	position: absolute;
+}
+.second {
+		height: 750px;
+		width: 100%;
+		margin-top:-10px; 
+		background-color:#4dbbac;
+		position: relative;
+		z-index: 1;
+}
+#second #title{
+	padding-top: 3%;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+	font-size: 45px;
+}
